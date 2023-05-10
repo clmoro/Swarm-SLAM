@@ -48,10 +48,10 @@ def launch_setup(context, *args, **kwargs):
 def generate_launch_description():
 
     return LaunchDescription([
-        DeclareLaunchArgument('namespace', default_value='/r2',
+        DeclareLaunchArgument('namespace', default_value='/r1',
                               description=''),
-        DeclareLaunchArgument('robot_id', default_value='2', description=''),
-        DeclareLaunchArgument('max_nb_robots', default_value='4', description=''),
+        DeclareLaunchArgument('robot_id', default_value='1', description=''),
+        DeclareLaunchArgument('max_nb_robots', default_value='2', description=''),
         DeclareLaunchArgument('config_path',
                               default_value=os.path.join(
                                   get_package_share_directory('cslam_experiments'),
