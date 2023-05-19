@@ -48,9 +48,9 @@ def launch_setup(context, *args, **kwargs):
 def generate_launch_description():
 
     return LaunchDescription([
-        DeclareLaunchArgument('namespace', default_value='/r2',
+        DeclareLaunchArgument('namespace', default_value='/r5',
                               description=''),
-        DeclareLaunchArgument('robot_id', default_value='2', description=''),
+        DeclareLaunchArgument('robot_id', default_value='5', description=''),
         DeclareLaunchArgument('max_nb_robots', default_value='8', description=''),
         DeclareLaunchArgument('config_path',
                               default_value=os.path.join(

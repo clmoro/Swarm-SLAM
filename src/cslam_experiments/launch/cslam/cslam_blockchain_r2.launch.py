@@ -51,7 +51,7 @@ def generate_launch_description():
         DeclareLaunchArgument('namespace', default_value='/r1',
                               description=''),
         DeclareLaunchArgument('robot_id', default_value='1', description=''),
-        DeclareLaunchArgument('max_nb_robots', default_value='2', description=''),
+        DeclareLaunchArgument('max_nb_robots', default_value='8', description=''),
         DeclareLaunchArgument('config_path',
                               default_value=os.path.join(
                                   get_package_share_directory('cslam_experiments'),
