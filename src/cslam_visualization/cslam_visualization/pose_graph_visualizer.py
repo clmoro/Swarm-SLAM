@@ -82,7 +82,7 @@ class PoseGraphVisualizer():
                             self.robot_pose_graphs[edge.key_from.robot_id][edge.key_from.keyframe_id].pose.position)
                         marker.points.append(
                             self.robot_pose_graphs[edge.key_to.robot_id][edge.key_to.keyframe_id].pose.position)
-            marker_array.markers.append(marker)
+            # marker_array.markers.append(marker)
 
         return marker_array
 
